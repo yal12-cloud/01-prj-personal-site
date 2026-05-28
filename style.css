@@ -1,1 +1,291 @@
-/* Add you CSS here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Cormorant Garamond', serif;
+    background:#f8e8ee;
+    color:#7d3b66;
+}
+
+/* HEADER */
+
+header{
+    background:#f3d6df;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:30px 70px;
+}
+
+header h1{
+    font-size:60px;
+    font-weight:700;
+}
+
+nav a{
+    text-decoration:none;
+    color:#7d3b66;
+
+    margin-left:35px;
+
+    font-size:30px;
+
+    font-family:'Great Vibes', cursive;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:120px;
+
+    padding:80px;
+
+    background-image:
+linear-gradient(
+rgba(248,232,238,0.72),
+rgba(248,232,238,0.72)),
+url("profile.jpg/lily-bg.jpg");
+
+background-size: cover;
+background-position: center;
+}
+
+/* GLASS BOX */
+
+.hero-text{
+    background:rgba(255,255,255,0.58);
+
+    padding:70px;
+
+    border-radius:35px;
+
+    max-width:760px;
+
+    backdrop-filter:blur(8px);
+
+    box-shadow:0px 10px 30px rgba(0,0,0,0.08);
+}
+
+/* HELLO */
+
+.hero-text h3{
+    font-family:'Great Vibes', cursive;
+    font-size:52px;
+    margin-bottom:10px;
+}
+
+
+/* BIG NAME */
+.hero-text h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:78px;
+    margin-bottom:25px;
+    font-weight:700;
+}
+
+/* TEXT */
+
+.hero-text p{
+    font-size:34px;
+
+    line-height:1.7;
+
+    margin-bottom:25px;
+}
+
+/* BUTTON */
+
+.btn{
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:18px 45px;
+
+    background:#a8477f;
+
+    color:white;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-size:28px;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#91376b;
+}
+
+/* PHOTO FRAME */
+
+.photo-card{
+    background:white;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    transform:rotate(4deg);
+
+    box-shadow:0px 15px 35px rgba(0,0,0,0.18);
+}
+
+.photo-card img{
+    width:380px;
+
+    height:500px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 80px;
+}
+
+/* TITLES */
+
+section h2{
+    font-size:70px;
+
+    margin-bottom:40px;
+
+    font-family:'Great Vibes', cursive;
+}
+
+/* ABOUT */
+
+.about{
+    background:#fff5f8;
+}
+
+.about p{
+    font-size:34px;
+
+    line-height:1.8;
+
+    max-width:1100px;
+
+    margin-bottom:25px;
+}
+
+/* SKILLS */
+
+.skills{
+  padding: 100px 80px;
+  background:#f4e3ea;
+}
+
+.skills h2{
+  text-align:center;
+  font-size:60px;
+  color:#8b3f6f;
+  margin-bottom:60px;
+}
+
+.skills-box{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.skill{
+  background:rgba(255,255,255,0.65);
+  backdrop-filter:blur(10px);
+
+  width:220px;
+
+  padding:35px 25px;
+
+  border-radius:30px;
+
+  text-align:center;
+
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+  transition:0.3s;
+}
+
+.skill:hover{
+  transform:translateY(-8px);
+}
+
+.skill i{
+  font-size:55px;
+  color:#a64d79;
+  margin-bottom:20px;
+}
+
+.skill p{
+  font-size:28px;
+  color:#8b3f6f;
+}
+/* PROJECTS */
+
+.projects{
+    background:#fff5f8;
+}
+
+.project-card{
+    background:white;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    margin-bottom:30px;
+
+    box-shadow:0px 10px 20px rgba(0,0,0,0.08);
+}
+
+.project-card h3{
+    font-size:40px;
+
+    margin-bottom:15px;
+}
+
+.project-card p{
+    font-size:28px;
+}
+
+/* CONTACT */
+
+.contact{
+    background:#f8e8ee;
+}
+
+.contact p{
+    font-size:32px;
+
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+
+    background:#f3d6df;
+
+    padding:30px;
+
+    font-size:24px;
+}
